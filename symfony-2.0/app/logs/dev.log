@@ -1,0 +1,149 @@
+2011-02-24T05:22:50-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:22:50-05:00 INFO: Matched route "hello" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\HelloController::indexAction","_route":"hello"})
+2011-02-24T05:22:50-05:00 INFO: Using controller "Sensio\HelloBundle\Controller\HelloController::indexAction"
+2011-02-24T05:22:53-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:22:53-05:00 INFO: Matched route "hello" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\HelloController::indexAction","_route":"hello"})
+2011-02-24T05:22:53-05:00 INFO: Using controller "Sensio\HelloBundle\Controller\HelloController::indexAction"
+2011-02-24T05:23:01-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:23:01-05:00 INFO: Matched route "hello" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\HelloController::indexAction","_route":"hello"})
+2011-02-24T05:23:01-05:00 INFO: Using controller "Sensio\HelloBundle\Controller\HelloController::indexAction"
+2011-02-24T05:23:07-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:23:07-05:00 INFO: Matched route "hello" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\HelloController::indexAction","_route":"hello"})
+2011-02-24T05:23:07-05:00 INFO: Using controller "Sensio\HelloBundle\Controller\HelloController::indexAction"
+2011-02-24T05:23:07-05:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleException" (notifyUntil)
+2011-02-24T05:23:07-05:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" (notifyUntil)
+2011-02-24T05:23:07-05:00 ERR: RuntimeException: The controller must return a response ('' given). (uncaught exception)
+2011-02-24T05:23:07-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:23:07-05:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction"
+2011-02-24T05:23:08-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:23:08-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:23:08-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-02-24T05:23:08-05:00 DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" processed the event "core.exception"
+2011-02-24T05:23:08-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:23:08-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:23:21-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:23:21-05:00 INFO: Matched route "hello" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\HelloController::indexAction","_route":"hello"})
+2011-02-24T05:23:21-05:00 INFO: Using controller "Sensio\HelloBundle\Controller\HelloController::indexAction"
+2011-02-24T05:23:21-05:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleException" (notifyUntil)
+2011-02-24T05:23:21-05:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" (notifyUntil)
+2011-02-24T05:23:21-05:00 ERR: RuntimeException: The controller must return a response ('Hello World' given). (uncaught exception)
+2011-02-24T05:23:21-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:23:21-05:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction"
+2011-02-24T05:23:21-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:23:21-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:23:21-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-02-24T05:23:21-05:00 DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" processed the event "core.exception"
+2011-02-24T05:23:21-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:23:21-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:23:21-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:23:21-05:00 INFO: Matched route "hello" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\HelloController::indexAction","_route":"hello"})
+2011-02-24T05:23:21-05:00 INFO: Using controller "Sensio\HelloBundle\Controller\HelloController::indexAction"
+2011-02-24T05:23:21-05:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleException" (notifyUntil)
+2011-02-24T05:23:21-05:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" (notifyUntil)
+2011-02-24T05:23:21-05:00 ERR: RuntimeException: The controller must return a response ('Hello World' given). (uncaught exception)
+2011-02-24T05:23:21-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:23:21-05:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction"
+2011-02-24T05:23:22-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:23:22-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:23:22-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-02-24T05:23:22-05:00 DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" processed the event "core.exception"
+2011-02-24T05:23:22-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:23:22-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:23:46-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:23:46-05:00 INFO: Matched route "hello" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\HelloController::indexAction","_route":"hello"})
+2011-02-24T05:24:01-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:24:01-05:00 INFO: Matched route "hello" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\HelloController::indexAction","_route":"hello"})
+2011-02-24T05:24:01-05:00 INFO: Using controller "Sensio\HelloBundle\Controller\HelloController::indexAction"
+2011-02-24T05:24:01-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:24:01-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:24:01-05:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleException" (notifyUntil)
+2011-02-24T05:24:01-05:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" (notifyUntil)
+2011-02-24T05:24:01-05:00 ERR: RuntimeException: You need to enable either the SQLite or PDO_SQLite extension for the profiler to run properly. (uncaught exception)
+2011-02-24T05:24:01-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:24:01-05:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction"
+2011-02-24T05:24:01-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:24:01-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:24:01-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-02-24T05:24:01-05:00 DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" processed the event "core.exception"
+2011-02-24T05:24:01-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:24:01-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:26:39-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:26:39-05:00 INFO: Matched route "hello" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\HelloController::indexAction","_route":"hello"})
+2011-02-24T05:26:39-05:00 INFO: Using controller "Sensio\HelloBundle\Controller\HelloController::indexAction"
+2011-02-24T05:26:39-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:26:39-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:26:39-05:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleException" (notifyUntil)
+2011-02-24T05:26:39-05:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" (notifyUntil)
+2011-02-24T05:26:39-05:00 ERR: RuntimeException: You need to enable either the SQLite or PDO_SQLite extension for the profiler to run properly. (uncaught exception)
+2011-02-24T05:26:39-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:26:39-05:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction"
+2011-02-24T05:26:39-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:26:39-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:26:39-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-02-24T05:26:39-05:00 DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" processed the event "core.exception"
+2011-02-24T05:26:39-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:26:39-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:27:16-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:27:16-05:00 INFO: Matched route "hello" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\HelloController::indexAction","_route":"hello"})
+2011-02-24T05:27:16-05:00 INFO: Using controller "Sensio\HelloBundle\Controller\HelloController::indexAction"
+2011-02-24T05:27:16-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:27:16-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:27:16-05:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleException" (notifyUntil)
+2011-02-24T05:27:16-05:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" (notifyUntil)
+2011-02-24T05:27:16-05:00 ERR: RuntimeException: You need to enable either the SQLite or PDO_SQLite extension for the profiler to run properly. (uncaught exception)
+2011-02-24T05:27:16-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:27:16-05:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction"
+2011-02-24T05:27:16-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:27:16-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:27:16-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-02-24T05:27:16-05:00 DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" processed the event "core.exception"
+2011-02-24T05:27:16-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:27:16-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:27:17-05:00 INFO: Matched route "hello" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\HelloController::indexAction","_route":"hello"})
+2011-02-24T05:27:17-05:00 INFO: Using controller "Sensio\HelloBundle\Controller\HelloController::indexAction"
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleException" (notifyUntil)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" (notifyUntil)
+2011-02-24T05:27:17-05:00 ERR: RuntimeException: You need to enable either the SQLite or PDO_SQLite extension for the profiler to run properly. (uncaught exception)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:27:17-05:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction"
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" processed the event "core.exception"
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:27:17-05:00 INFO: Matched route "hello" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\HelloController::indexAction","_route":"hello"})
+2011-02-24T05:27:17-05:00 INFO: Using controller "Sensio\HelloBundle\Controller\HelloController::indexAction"
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleException" (notifyUntil)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" (notifyUntil)
+2011-02-24T05:27:17-05:00 ERR: RuntimeException: You need to enable either the SQLite or PDO_SQLite extension for the profiler to run properly. (uncaught exception)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:27:17-05:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction"
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" processed the event "core.exception"
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:27:17-05:00 INFO: Matched route "hello" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\HelloController::indexAction","_route":"hello"})
+2011-02-24T05:27:17-05:00 INFO: Using controller "Sensio\HelloBundle\Controller\HelloController::indexAction"
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleException" (notifyUntil)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" (notifyUntil)
+2011-02-24T05:27:17-05:00 ERR: RuntimeException: You need to enable either the SQLite or PDO_SQLite extension for the profiler to run properly. (uncaught exception)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T05:27:17-05:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction"
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" processed the event "core.exception"
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T05:27:17-05:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\Profiler\ProfilerListener::handleResponse" (filter)

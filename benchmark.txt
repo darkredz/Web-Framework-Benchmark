@@ -1,0 +1,29 @@
+ab -t30S -c10 [url]
+
+Django 1.2.5 (manage.py runserver)		http://localhost:8000/hello/		Requests per second:    1047.46 
+Django 1.2.5 (serve via nginx fastcgi)		http://django/hello/			Requests per second:    722.93	
+http://code.djangoproject.com/wiki/ServerArrangements
+
+APC off
+DooPHP 1.4.1		http://localhost/doophp-1.4.1/app/index.php		Requests per second:    1430.63 
+CodeIgniter 2.0		http://localhost/CodeIgniter_2.0.0/index.php/		Requests per second:    888.66
+Yii 1.1.6		http://localhost/yii-1.1.6.r2877/demos/helloworld/	Requests per second:    624.11
+Kohana 3.1		http://localhost/kohana-3.1/index.php/welcome		Requests per second:    575.41 
+Symfony 2.0 sandbox	http://localhost/symfony-2.0/web/app.php/hello		Requests per second:    385.27 
+CakePHP 2.0 dev		http://localhost/cakephp-2.0.0/index.php/hello		Requests per second:    276.69
+CakePHP 1.3.7		http://localhost/cakephp-1.3.7/index.php/hello		Requests per second:    217.13 
+
+APC on
+DooPHP 1.4.1		http://localhost/doophp-1.4.1/app/index.php		Requests per second:    7340.78 
+CodeIgniter 2.0		http://localhost/CodeIgniter_2.0.0/index.php/		Requests per second:    3808.42
+Yii 1.1.6		http://localhost/yii-1.1.6.r2877/demos/helloworld/	Requests per second:    3390.29
+Kohana 3.1		http://localhost/kohana-3.1/index.php/welcome		Requests per second:    2139.65 
+Symfony 2.0 sandbox	http://localhost/symfony-2.0/web/app.php/hello		Requests per second:    1367.58 
+CakePHP 2.0 dev		http://localhost/cakephp-2.0.0/index.php/hello		Requests per second:    1417.17
+CakePHP 1.3.7		http://localhost/cakephp-1.3.7/index.php/hello		Requests per second:    1116.73
+
+APC on
+DooPHP blog demo			http://localhost/doophp-1.4.1/demos/blog/				Requests per second:    2115.83
+DooPHP blog demo			http://localhost/doophp-1.4.1/demos/blog/index.php/article/10		Requests per second:    2498.07
+DooPHP blog demo			http://localhost/doophp-1.4.1/demos/blog/index.php/tag/tutorial		Requests per second:    1650.43
+DooPHP blog demo (full page cache)	http://localhost/doophp-1.4.1/demos/blog/index.php/tag/tutorial		Requests per second:    6069.74
