@@ -1,0 +1,30 @@
+upstream djangoserv {
+	server 127.0.0.1:8801;
+}
+
+server {
+	listen 80;
+	root /opt/django/Django-1.2.5/hello;
+	server_name django;
+
+	location ~* ^.+\.(jpg|jpeg|gif|png|ico|css|zip|tgz|gz|rar|bz2|doc|xls|exe|pdf|ppt|txt|tar|mid|midi|wav|bmp|rtf|js|mov) {
+		access_log   off;
+		expires      30d; 
+	}
+
+	location / {
+		                # host and port to fastcgi server
+		                fastcgi_pass 127.0.0.1:8801;
+		                fastcgi_param PATH_INFO $fastcgi_script_name;
+		                fastcgi_param REQUEST_METHOD $request_method;
+		                fastcgi_param QUERY_STRING $query_string;
+		                fastcgi_param SERVER_NAME $server_name;
+		                fastcgi_param SERVER_PORT $server_port;
+		                fastcgi_param SERVER_PROTOCOL $server_protocol;
+		                fastcgi_param CONTENT_TYPE $content_type;
+		                fastcgi_param CONTENT_LENGTH $content_length;
+		                fastcgi_pass_header Authorization;
+		                fastcgi_intercept_errors off;
+	}
+}
+

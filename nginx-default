@@ -1,0 +1,32 @@
+server {
+
+	listen   80; ## listen for ipv4
+	listen   [::]:80 default ipv6only=on; ## listen for ipv6
+
+	server_name  localhost;
+
+	access_log  /var/log/nginx/localhost.access.log;
+
+	location / {
+		root   /var/www;
+		index  index.html index.htm index.php;
+	}
+
+	location ~ \.php {
+         fastcgi_pass  backend;
+         fastcgi_index index.php;
+         include fastcgi_params;
+         fastcgi_param SCRIPT_FILENAME /var/www$fastcgi_script_name;
+         fastcgi_param PATH_INFO $fastcgi_script_name;
+         fastcgi_param SCRIPT_NAME     $fastcgi_script_name;
+         fastcgi_param DOCUMENT_ROOT   $document_root;
+         access_log off;
+      }
+
+}
+
+
+upstream backend {
+        server 127.0.0.1:9000;
+}
+ 
