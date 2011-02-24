@@ -1,0 +1,16 @@
+This repository is used to show case benchmark of various web frameworks like DooPHP, YII, Symfony, CodeIgnitor, CakePHP, etc.
+
+This test has been taken under the following configuration: 
+
+Ubuntu (marverik) 64 bit
+Intel(R) Core(TM) i7 CPU 930 @ 2.80GHz
+    - 64 bit processor
+4GB Memory 1066 MHz
+1TB HDD SATA II 7200 rpm
+
+Nginx 0.7.67
+PHP 5.3.5 with PHP-FPM
+MySQL 5.1
+ 
+Result graph:
+See benchmark.png
